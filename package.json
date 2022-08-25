@@ -1,14 +1,15 @@
 {
-  "name": "neural-network",
-  "version": "1.0.0",
-  "description": "",
-  "main": "src/index.js",
-  "directories": {
-    "src": "src"
-  },
-  "scripts": {
-    "run": "tsc && node src/index.js"
-  },
-  "author": "",
-  "license": "ISC"
+    "name": "neural-network",
+    "version": "1.0.0",
+    "description": "Some playing around with neural networks in typescript/javascript",
+    "main": "src/index.js",
+    "directories": {
+        "src": "src"
+    },
+    "scripts": {
+        "build": "tsc",
+        "start": "node src/index.js"
+    },
+    "author": "Thomas Moser",
+    "license": "ISC"
 }
